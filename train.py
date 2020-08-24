@@ -9,7 +9,7 @@ import os
 #    os.system('mkdir /home/aistudio/.torch')
 #    os.system('mkdir /home/aistudio/.torch/models')
 #    os.system('cp /home/aistudio/work/pre_model/*  /home/aistudio/.torch/models/')
-import torch
+
 from torchvision import transforms
 from torch.utils.data import DataLoader
 import numpy as np
